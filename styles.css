@@ -1,6 +1,7 @@
 .ueber {
     margin: 20px 20px;
     color: rgb(90, 90, 90);
+    text-align: center;
 }
 
 .text {
@@ -8,7 +9,7 @@
     color: rgb(68, 68, 68);
 }
 
-body   { 
-	background-color: rgb(190, 190, 190); 
-	color: midnightblue;
+body {
+    background-color: rgb(190, 190, 190);
+    color: midnightblue;
 }
