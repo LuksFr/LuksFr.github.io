@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lfclass {
+  background-color: #cccccc;
+}
+
+section {
+  margin-top: 15px;
+}
+
+.bildtexte {
+  margin-bottom: 15px;
+}
+
+.sonderbildtext {
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+
+.img1container {
+    background-image: url("../images/DSC03348.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+    height: 600px;
+}

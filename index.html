@@ -1,24 +1,381 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LuksFr</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto" rel="stylesheet">
+    <title>Lukas Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
 </head>
 
-<body>
-    <div>
-        <h1 class="ueber">Willkommen auf meiner Website</h1>
-        <hr>
-        <p class="text">Hallo!</p>
+<body class="lfclass">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="seite2.html">Seite 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Natur und Hobby Fotografie&nbsp;</h1>
+                    <p>Willkommen auf meiner Website, hier finden sie spannende Bilder und aufregende Momente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="jumbotron text-center mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Lukas Fritsch&nbsp;&nbsp;</h1>
+                        <p>Als ambitionierter Hobbyfotograf, bin ich immer auf der Suche nach spannenden Momenten und gutem Licht.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>&nbsp;Portfolio</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/WipfTR.png" alt="myicon" width="32" height="32" class="mr-3 img-fluid">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Kamera&nbsp;</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/DSC04190.jpg" alt="myicon" width="32" height="32" class="mr-3 img-fluid">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Liste</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/WipfTR.png" alt="Myicon" width="32" height="32" class="mr-3">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Beispiel Bilder&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="file:///C|/Users/Nala/Desktop/Unbenannter Export/teo/DSC02588.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC03576.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Beispiel Bilder&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC00669.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC00766.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2 col-xl-12"> <img class="img-fluid" src="images/DSC04130.jpg" width="1045" height="186" alt="mein Bild">
+                    <div class="bildtexte">
+                        <h4>La katza</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Beispiel Bilder&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC01416.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC03452.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC03594.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC03695.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC04130.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC04189.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC04189.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC08283.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="images/DSC08463.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4>Brot</h4>
+                        <h6>Das sind Blumen&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
+                    <img src="images/DSC08935.jpg" alt="mein Bild" class="img-fluid">
+                    <div class="bildtexte">
+                        <h4 class="lukas">Leselampe</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="img1container">
+        </div>
+    </section>
+
+    <hr>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/WipfTR.png" alt="myicon" width="32" height="32" class="mr-3">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/WipfTR.png" alt="myicon" width="32" height="32" class="mr-3">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/WipfTR.png" alt="myicon" width="32" height="32" class="mr-3">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">List-based media object</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h3 class="text-center">Instagram</h3>
+                    <p>Hier kommt mein Link hin</p>
+                </div>
+                <div class="col-md-4 col-12 col-xl-8">
+                    <h3 class="text-center">Kontakt</h3>
+                    <address class="text-center">
+            <strong>Lukas Fritsch</strong><br>
+            Regensburger Str. 26,<br>
+            90518 Altdorf bei Nürnberg<br>
+            LuksFr@web.de
+          </address>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <a class="links" href="./foto/foto.html">Zu den Fotos</a>
-    </div>
+    <hr>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>06.07.2021 Lukas Fritsch.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
