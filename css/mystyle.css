@@ -3,6 +3,7 @@
 
 .lfclass {
   background-color: #cccccc;
+  font-family: "Letter Gothic Std";
 }
 
 section {
@@ -19,9 +20,21 @@ section {
 }
 
 .img1container {
-    background-image: url("../images/DSC03348.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position-x: center;
-    height: 600px;
+  background-image: url("../images/DSC03348.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 600px;
+}
+
+.img0container {
+  background-image: url("../images/DSC03058.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 800px;
+}
+
+.gebiete {
+  font-family: "comfortaa";
 }
