@@ -35,6 +35,14 @@ section {
   height: 800px;
 }
 
+.imgNaturContainer {
+  background-image: url("../images/DSC05778.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 800px;
+}
+
 .gebiete {
   font-family: "comfortaa";
 }
