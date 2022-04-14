@@ -94,3 +94,14 @@ a:link {
 .dsnone {
     display: none;
 }
+
+.container {
+    /* max-width: 1742px; */
+    max-width: none;
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
